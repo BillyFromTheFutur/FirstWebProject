@@ -1,0 +1,12 @@
+.histoire{
+    display: flex;
+    flex-direction: column;
+}
+.image{
+    display: flex;
+    flex-direction: row;
+}
+.food img{
+    float:right;
+    height: 350px;
+}

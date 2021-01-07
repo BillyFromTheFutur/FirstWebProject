@@ -1,0 +1,92 @@
+
+main{
+    height: 88vh;
+}
+.droite h1,.gauche h1{
+    margin-top: 45px;
+    margin-left:0px;
+
+    
+}
+.droite h2,.gauche h2 {
+    width: 550px;
+    font-size: 15pt;
+    margin-bottom: 55px;
+}
+
+.droite,.gauche{
+    background-color: white;
+    margin-top: 10vh;
+    height: 55vh;
+    width: 35vw;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+}
+.droite:hover,.gauche:hover{
+    background-color: white;
+    margin-top: 10vh;
+    height: 54vh;
+    width: 34vw;
+    border-radius: 13px;
+    transition: 0.2s;
+    border:solid 5px black;
+}
+.gauche{
+    margin-left: 10vw;
+}
+section{
+    background-color:	#FFE4E1;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+}
+
+
+
+.gauche h1,.droite h1,.gauche h2,.droite h2{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.gauche a,.droite a{
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+}
+.gauche a:hover,.droite a:hover{
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+}
+.img{
+    height: 115px;
+    width: 115px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.img img{
+    height: 215px;
+    display: flex;
+    justify-content: space-between;
+}
+.imgu{
+    margin-left: 50%;
+}
+.imgd{
+    margin-left: 110%;
+}
+.plus{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.plus a{
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,95 @@
+
+main{
+    height: 68vh;
+}
+main h1,footer{
+    margin-top: 145px;
+    margin-left:0px;
+}
+main h2{
+    width: 550px;
+    font-size: 15pt;
+    margin-bottom: 55px;
+}
+main a{
+    margin-top: 45px;
+}
+.gauche{
+    margin-top: 15px;
+    margin-left: 0px;
+}
+.gauche img{
+    height: 550px;
+    margin-left: 35px;
+}
+section{
+    background-color:	#FFE4E1;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+}
+section .cartetendance{
+    border: solid 5px black;
+    height: 250px;
+    width: 150px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #FFE4E1;
+    margin-right: 30px;
+}
+section .cartetendance .image,section .cartetendance .images{
+    height: 110px;
+    width: 150px;
+    overflow: hidden;
+    background-color: #FFE4E1;
+    border-bottom: solid 4px black;
+}
+
+section .cartetendance .image img{
+    height: 90px;
+    margin-left:-8px;
+    margin-top:15px;
+    background-color:#FFE4E1;
+}
+section .cartetendance .images img{
+    height: 100;
+    margin-top:5px;
+    background-color:#FFE4E1;
+}
+section .cartetendance{
+    width: 18vw;
+    min-width: 10vmin;
+}
+section .cartetendance p{
+    margin-bottom: 45px;
+
+}
+section .cartetendance a{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom:25px ;
+    align-content: center;
+}
+section a{
+    text-decoration: none;
+    color: 	#FFF5EE;
+   /* background-color: black;
+    text-align: center;
+    align-items:center;
+    padding-top: 5px;
+    padding-left: -5px;*/
+
+}
+section .a{
+    text-decoration: none;
+    color: 	#FFF5EE;
+    background-color: black;
+    text-align: center;
+    align-items:center;
+    padding: 5px;
+    margin: -5px;
+    height: 100%;
+    width: 100%;
+}

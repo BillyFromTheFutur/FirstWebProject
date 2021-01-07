@@ -1,0 +1,142 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: 	#FFE4E1;
+}
+nav ol a{
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-variant: Regular 400;
+    align-items: center;
+    margin-left: -5px;
+    margin-right: 45px;
+
+    padding: 5px;
+
+}
+nav ol a#concerne{
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-variant: Regular 400;
+    align-items: center;
+    margin-left: -5px;
+    margin-right: 45px;
+    padding: 5px;
+    border-bottom:solid 2px black;
+    border-right:solid 2px transparent;
+
+}
+nav ol{
+    display:flex;
+    flex-wrap:wrap;
+}
+main a{
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: 	#FFE4E1;
+    font-variant: Regular 400;
+    align-items: center;
+    margin-left: -5px;
+    margin-right: 45px;
+    background-color: black;
+    border-radius: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 45px;
+
+}
+nav ol a:hover{
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-variant: Regular 400;
+    align-items: center;
+    margin-left: -5px;
+    margin-right: 45px;
+    background-color: white;
+    border-radius: 3px;
+    padding: 5px;
+    transition: 1.25s;
+
+}
+main a:hover{
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-variant: Regular 400;
+    align-items: center;
+    margin-left: -5px;
+    margin-right: 45px;
+    background-color: white;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: solid 2px black;
+    transition: 0.3s;
+}
+nav{
+    border-bottom: solid 3px black;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+main,section,h1{
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 75px;
+}
+.logo {
+    align-self: center;
+
+}
+.logo img{
+    height: 45px;
+    display: flex;
+    justify-content: flex-end;
+}
+footer{
+    margin-bottom:0px;
+    height: 55px;
+    width: 100%;
+    background-color: black;
+    border-top: solid 3px black;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+
+}
+footer a,footer p{
+    margin-top:17px;
+    height: 55px;
+    width: 155px;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 145px;
+}
+footer p{
+    margin-left: 85px;
+}
+#nike{
+    height: 42px;
+    margin-top: 5px;
+    margin-left: 38px;
+}
